@@ -1,0 +1,141 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    color: white;
+    text-align: left; 
+    background-color: rgb(242, 215, 235);
+    background-size: 100% auto;
+    padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+}
+* {
+    cursor:url("IMAGES/Ava-cursor-2.png"), auto;
+    margin:0px;
+    padding:0px;
+    border:none;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px; */
+  }
+  .sidebar a {
+    padding: 8px 8px 8px 32px; */
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    color: white;
+    display: block;
+    text-align: left;
+    transition: 0.3s;
+    text-decoration: none;
+    flex-con
+  }
+  .sidebar a:hover {
+    color: rgb(241, 193, 228);
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    text-decoration: none;
+    position: fixed;
+    z-index: 1;
+    top: 25px;
+    right: 25px;
+  }
+  .openbtn:hover {
+    color: rgb(241, 193, 228);
+  }
+  .header {
+    position: sticky;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    //margin: 20px;
+    //gap: 30px;
+    align-items: right;
+    justify-content: right;
+    align-content: right; 
+}
+.column {
+    display: flex;
+    flex-direction: row;
+
+}
+.heading{
+    font-weight: 200;
+    font-size: 16px;
+}
+.writing {
+font-size: 14px;
+font-weight: 400;
+padding: 50px;
+align-content: center;
+align-items: center;
+}
+#acknowledge {
+
+padding: 32px 32px 32px 32px; */
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    color: white;
+    display: block;
+    text-align: left;
+    transition: 0.3s;
+    flex-con
+;
+}
+#image01 {
+padding: 30px;
+align-items: right;
+justify-content: right;
+align-content: right;
+}
+#image02 {
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+}
+#image03 {
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 10px;
+padding-right: 30px;
+}
+#image04 {
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 10px;
+padding-right: 30px;
+float: left;
+align-items: left;
+justify-content: left;
+align-content: left;
+}
